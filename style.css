@@ -129,3 +129,13 @@ button {
 .boxes-subtext {
     text-align: center;
 }
+
+
+.quote .container {
+    padding: 50px;
+}
+
+.quote h4 {
+    padding-top: 10px;
+    text-align: right;
+}
