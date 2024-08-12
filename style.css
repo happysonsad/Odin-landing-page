@@ -184,3 +184,22 @@ a:active, a:hover,
     font-family: monospace;
     color: #90ee90;
 }
+
+/* make the webpage responsive */
+@media (max-width: 768px) {
+    .hero-text .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .info-img .box-container {
+        display: block;
+        text-align: center;
+    }
+
+    .action .container {
+        display: block;
+        text-align: center;
+    }
+}
