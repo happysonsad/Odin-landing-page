@@ -175,3 +175,12 @@ button {
     padding: 30px 0;
     font-size: smaller
 }
+
+/* hover for hero text and button */
+button:active, button:hover,
+a:active, a:hover,
+.logo:active, .logo:hover
+{
+    font-family: monospace;
+    color: #90ee90;
+}
