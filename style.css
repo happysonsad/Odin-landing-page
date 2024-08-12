@@ -7,7 +7,9 @@
 /* resize the cat jpg on the header intro*/
 .catjpg {
     max-width: 400px;
-    max-height: 150px;
+    max-height: 100%;
+    flex: 1;
+    border-radius: 10%;
 }
 
 /*color, font, text style*/
@@ -52,15 +54,19 @@ button {
 }
 
 .header-intro h1{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bolder;
+}
+
+.header-text p {
+    font-size: smaller;
 }
 /*color, font, text style*/
 
 .hero-text .container {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 300px;
     align-items: center;
 }
 
@@ -68,4 +74,15 @@ button {
     display: flex;
     list-style-type: none;
     gap: 20px;
+}
+
+.header-intro .container {
+    display: flex;
+    align-items: center;
+    padding: 30px 300px;
+    margin-bottom: 20px;
+}
+
+.header-text {
+    flex:1
 }
