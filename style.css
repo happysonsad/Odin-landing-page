@@ -6,7 +6,7 @@
 
 /*  */
 .container {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -56,6 +56,11 @@ button {
     font-size: 46px;
     font-weight: bolder;
 }
+
+.action .container {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
 /*color, font, text style*/
 
 
@@ -92,7 +97,7 @@ button {
     color: #f9faf8;
     margin: 10px 0;
     padding: 8px 15px;
-    border-radius: 10%;
+    border-radius: 10px;
     font-weight: bold;
 }
 
@@ -100,7 +105,7 @@ button {
 .catjpg {
     max-width: 60%;
     max-height: 20%;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 /* make the header in center */
@@ -122,7 +127,7 @@ button {
     width: 150px;
     height: 150px;
     border: #3882f6 3px solid;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 /* make the info text to center */
@@ -138,4 +143,26 @@ button {
 .quote h4 {
     padding-top: 10px;
     text-align: right;
+}
+
+/* flex the call to action section */
+.action .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.action {
+    margin: 50px 0;
+}
+
+/*  */
+.action .sign-up {
+    border: #f9faf8 solid 2px;
+    border-radius: 10px;
+    padding: 3px 30px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
 }
